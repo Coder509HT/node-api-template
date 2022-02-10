@@ -1,8 +1,12 @@
 {
   "name": "node-api-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
   "dependencies": {
     "express": "^4.17.2",
     "mongoose": "^6.2.1",
